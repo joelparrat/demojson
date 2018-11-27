@@ -15,7 +15,7 @@ function lectureBDD($str)
 {
 	$str->ret=-1;
 	$str->mss="Veuillez vous identifier ...";
-	$bdd = mysqli_connect('localhost', 'prnstr', 'M850ytdm@$', 'prnstr');												// ouverture de la base
+	$bdd = mysqli_connect('localhost', 'gstflm', 'gstflm', 'gstflm');													// ouverture de la base
 	if (!$bdd)
 	{
 		$str->mss = mysqli_connect_error();
